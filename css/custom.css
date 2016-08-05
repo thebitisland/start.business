@@ -1,0 +1,99 @@
+.populationSelector {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    background: white;
+    background: rgba(255,255,255,0.6);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    min-width: 250px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.info:hover {
+    background: rgba(255,255,255,0.9);
+}
+
+.legend {
+    min-width: 0px;
+    line-height: 18px;
+    color: #555;
+    text-align: center;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    /*margin-right: 8px;*/
+    opacity: 0.7;
+}
+
+.cloroplethControl {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    width: 280px;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.cloroplethControl:hover {
+    background: rgba(255,255,255,1);
+}
+
+.cloroplethControl h5 {
+    text-align: center;
+    font: 16px/18px Arial, Helvetica, sans-serif;
+    color: #673AB7;
+}
+
+.control-form {
+    width: 75% !important;
+    white-space:nowrap;
+}
+
+.popup_info {
+    
+}
+
+.popup_info hr {
+    margin: 0;
+}
+
+.popup_info h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-right: 38px;
+}
+
+.transport {
+    right: 150px;
+    bottom: -58px;
+    min-width: 0px;
+    height: 48px;
+}
+
+.help_circle {
+    margin-top: 102px;
+    margin-left: 11px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    padding: 2px;
+    border-radius: 5px;
+}
+
